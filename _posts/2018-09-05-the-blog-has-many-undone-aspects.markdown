@@ -2,7 +2,8 @@
 layout: post
 title: "The blog has many undone aspects"
 date: "2018-09-05 23:58:21 +0800"
-categories: jekyll
+categories: tech
+tag: jekyll
 ---
 
 <p>
