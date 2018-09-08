@@ -1,0 +1,62 @@
+# Site Info
+title: Mr.Long
+tagline: 'I gonna be one gaint'
+description: 'This is my lonely planet'
+baseurl: ""
+url:
+logo: '/public/logo.jpg'
+
+# Site configurations
+gems:
+  - jekyll-paginate
+markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss
+paginate: 5
+paginate_path: '/blog/page:num'
+permalink: pretty
+
+version: 1.0.0
+
+# About/contact
+author:
+  name: achang
+  description: A passionate <strong>developer and researcher</strong>, learning to be a giant.
+  gravatar: a2de28dd27cb37a11cecf2ac8a1e78c2 # md5 hash of your email address
+  contact:
+    # linkedin:  https://www.linkedin.com/in/lizhihao
+    github:    https://github.com/mrliuchang
+    # facebook:  <hide>
+    twitter:   https://twitter.com/
+    weibo:     http://weibo.com/
+    email:     achang694@gmail.com
+
+# Navigation (2nd level links supported)
+nav:
+  Home:
+    - '/'
+  Blog:
+    - '/blog/'
+    - { Categories: '/blog/categories/' }
+    - { Tags: '/blog/tags/' }
+  About:
+    - '/about/'
+  Github Project:
+    - 'http://mrliuchang.github.io/'
+
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
+excerpt_separator: <!--more-->
+hero:
+  image: /public/img/hacker.png
+  caption: Original Artwork &copy; <a href="https://www.google.com/">hacker</a>
+
+# Puglins
+mathjax: true # whether support mathjax
+google_analytics_token:  # leave blank if you don't want google analytics
+disqus_short_name:  # leave blank if you don't want disqus
