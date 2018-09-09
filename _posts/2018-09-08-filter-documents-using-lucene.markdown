@@ -2,11 +2,11 @@
 layout: post
 title: "Filter Documents Using Lucene"
 date: "2018-09-08 14:35:14 +0800"
-categories: "Lucene"
+categories: "lucene"
 tag: [Index,Filter,Documents]
 ---
 # Next I will filter the dots and renew a clean Index.
-
+<!--more-->
 我过滤字符串标点符号的正则表达式是：
 '''java
 

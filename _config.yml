@@ -4,15 +4,14 @@ tagline: 'I gonna be one gaint'
 description: 'This is my lonely planet'
 baseurl: ""
 url:
-logo: '/public/logo.jpg'
-
+logo: '/public/img/cover.jpg'
 # Site configurations
 gems:
   - jekyll-paginate
 markdown: kramdown
 kramdown:
   input: GFM
-  
+
 sass:
   style: compressed
   sass_dir: _scss
@@ -53,7 +52,7 @@ tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
 excerpt_separator: <!--more-->
 hero:
-  image: /public/img/hacker.png
+  image: /public/img/cover.jpg
   caption: Original Artwork &copy; <a href="https://www.google.com/">hacker</a>
 
 # Puglins
