@@ -12,3 +12,6 @@ The possibility for greatness and embarrassment both exist in the same space. If
 The difference between successful people and failures is that they make a habit of doing the things that failures don't like to do.Successful people
 do things that are hard and necessary and important.Unsuccessful people ,
 on the other hand, do the things that are fun and easy and which give immediate enjoyment.
+
+Life is a test.The test is whether you can keep your mind on what you want
+and where you are going rather than thinking about things you don't want or the problems you have had in the past.

@@ -41,3 +41,37 @@ n=4000
 num of documents:3954
 the C now is 46
 the estimated population is 366764
+
+n=4000
+===============================================================
+程序运行时间： 6.48665min
+num of documents:3968
+the C now is 32
+the estimated population is 501020
+
+===============================================================
+程序运行时间： 6.0900664min
+num of documents:3967
+the C now is 33
+the estimated population is 478066
+================================================================
+程序运行时间： 5.4845834min
+num of documents:3963
+the C now is 35
+the estimated population is 436999
+================================================================
+程序运行时间： 5.4754667min
+num of documents:3965
+the C now is 34
+the estimated population is [471066
+================================================================
+程序运行时间： 5.7712665min
+num of documents:3951
+the C now is 48
+the estimated population is [324555
+=================================================================
+程序运行时间： 6.199983min
+num of documents:3961
+the C now is 40
+the estimated population is 419325
+================================================================
