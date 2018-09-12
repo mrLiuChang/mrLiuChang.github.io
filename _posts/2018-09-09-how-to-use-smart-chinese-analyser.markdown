@@ -75,3 +75,13 @@ num of documents:3961
 the C now is 40
 the estimated population is 419325
 ================================================================
+程序运行时间： 11.6199min
+num of documents:7862
+the C now is 143
+the estimated population is [449324
+=======================================
+程序运行时间： 10.6331835min
+num of documents:7829
+the C now is 173
+the estimated population is [357987
+====================================
