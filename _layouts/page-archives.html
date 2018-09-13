@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+<div class="img-comp-img">
+  <img src="/image/hacker-2.png" width="600" height="400">
+</div>
+<br />
+<br />
+
+<ul id="smart-archives-block">
+
+  {% for year in page.years reversed %}
+    <li>
+      <strong><a href="#archive-{{ year }}">{{ year }}</a></strong>
+
+      {% for month in (1..12) %}
+        {% assign has_posts = page.grouped_posts[year][month] | size %}
+        {% if has_posts > 0 %}
+          <a style="color:red;" class="month_names" href="#archive-{{ year }}-{{ month | rjust:2, "0" }}">{{ page.month_abbreviations[month] }}</a>
+        {% else %}
+          <span class="empty-month">{{ page.month_abbreviations[month] }}</span>
+        {% endif %}
+      {% endfor %}
+    </li>
+  {% endfor %}
+
+</ul>
+<br />
+<hr />
+
+<div id="smart-archives-list">
+
+  {% for year in page.years reversed %}
+
+    <a name="archive-{{ year }}"></a>
+
+    {% for month in (1..12) reversed %}
+      {% assign has_posts = page.grouped_posts[year][month] | size %}
+      {% if has_posts > 0 %}
+      <br />
+
+          <div style="">
+            <strong>{{ page.month_names[month] }}, {{ year }}</strong>
+          </div>
+          <br />
+
+
+
+        <ul class="archive-list">
+          {% for post in page.grouped_posts[year][month] reversed %}
+            <li>  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                  <span class="post-meta">{{ post.date | date: date_format }}</span>
+                  <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+
+</div>
